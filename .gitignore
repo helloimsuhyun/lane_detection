@@ -1,0 +1,21 @@
+# Virtual environments
+iro_cv/
+venv/
+.env/
+
+# Jupyter notebook data
+notebook/data/
+*.zip
+
+# Large media files
+*.avi
+*.mp4
+*.mov
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+

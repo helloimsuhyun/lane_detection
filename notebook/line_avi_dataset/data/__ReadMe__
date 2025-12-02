@@ -1,0 +1,30 @@
+data
+L videos
+L images
+
+---
+
+videos (원본 촬영 영상)
+L test :테스트용 영상 . 학습이나 파라미터 조정에 관여 X
+	L 04.avi 
+	
+L train : 학습용 영상
+	L 01.avi 02.avi 03.avi : realsense 촬영본
+	  01_phone.mp4 02_phone.mp4 :아이폰 촬영본
+	  
+images (영상을 프레임별로 분할)
+
+L test 
+	Lextracted_5f : 04.avi를 5프레임에 이미지 한장 추출 335장
+	Lextracted_10f : 04.avi를 10프레임에 이미지 한장 추출 167장
+L train
+	Lextracted_10f : 01, 02, 03 . avi 를 5프레임에 이미지 한장 추출 707장 (realsense 촬영)
+	Lextracted_20f : 01, 02, 03 . avi를 10프레임에 이미지 한장 추출 353장 (realsense 촬영)
+	
+	Lextracted_10f_phone : 01_phone 02_phone.avi를 10프레임에 이미지 한장 추출 580장 (아이폰 촬영)
+	Lextracted_20f_phone : 01_phone 02_phone.avi를 20프레임에 이미지 한장 추출 290장 (아이폰 촬영)
+			
+  
+	 
+	
+
