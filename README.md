@@ -4,8 +4,12 @@
 
 **OpenCV · Sliding Window · Steering Control**
 
-카메라 영상 기반으로 차선을 인식하고,  
-차선 중심 오차를 이용해 **steering angle**을 계산하는 line following 모듈입니다.
+2025 IRC 국제로봇올림피아드  
+**AI 자율주행 경진대회 준비를 위해 제작한**  
+카메라 영상 기반 line following 모듈입니다.
+
+차선을 인식하고, 차선 중심 오차를 이용해  
+**steering angle**을 계산합니다.
 
 <br/>
 
